@@ -1,0 +1,63 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.faq {
+  .actionBar {
+    display: flex;
+    padding: 5px;
+
+    .search {
+      flex-grow: 1;
+      text-align: left;
+    }
+    .actions {
+      flex-grow: 1;
+      text-align: right;
+      padding-right: 20px;
+    }
+  }
+
+  .items {
+    padding: 5px;
+    border: none;
+    cursor: default;
+    display: block;
+
+    .topBar {
+      display: flex;
+      border-width: 2px;
+      border-style: solid;
+      box-sizing: border-box;
+      align-items: center;
+      background-color: "[theme: themePrimary, default: #0078d7]";
+      color: white;
+      font-size: 19px;
+      font-weight: 600;
+      cursor: pointer;
+
+      .title {
+        flex-grow: 1;
+        text-align: left;
+        padding: 5px;
+      }
+
+      .actionOpen {
+        flex-grow: 1;
+        color: white;
+        text-align: right;
+        padding-right: 20px;
+      }
+    }
+
+    .details {
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      padding: 8px 15px;
+      overflow: hidden;
+      background-color: "[theme: themePrimary, default: #0078d7]";
+      background: white;
+      font-size: 19px;
+      line-height: 1.3;
+    }
+  }
+}
